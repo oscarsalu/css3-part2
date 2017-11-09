@@ -356,16 +356,15 @@ input[type=text] {
 #height{
     height: 30px;
 }
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
 .columnrow::after {
     content: "";
     clear: both;
     display: table;
 }
-
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
