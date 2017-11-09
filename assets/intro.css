@@ -353,9 +353,7 @@ input[type=text] {
     background-color: white;
 }
 /* grid */
-#height{
-    height: 30px;
-}
+
 .columnrow::after {
     content: "";
     clear: both;
@@ -363,7 +361,6 @@ input[type=text] {
 }
 [class*="col-"] {
     float: left;
-    padding: 15px;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
